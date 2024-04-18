@@ -1,5 +1,7 @@
-Transform .cube of Qchem and Gaussian file to xyz
+Transform .cube of Qchem and Gaussian file to x y z value (yk modified version)
 ==========================
+
+cube2xyz can convert Gaussian type Cube files into "x y z value" columns, or project values on planes (slizes) or segments. Optionally, it can directly produce the plot for a faster visualization.
 
 .cube files are originally from the Gaussian molecular modeling code, but nowadays can be produced and read by most of the computational chemistry programs. They consist of a lot of blocks of data describing the values of a measured property (charge, spin polarization, electronic density, …) on each point of the space inside the simulation cell.
 
