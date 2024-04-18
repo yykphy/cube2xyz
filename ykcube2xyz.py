@@ -1,5 +1,10 @@
 #! /usr/bin/env python
 
+# Writen by Julen Larrucea
+# http://www.larrucea.eu
+# modified by Yu Kun Yang
+# yangyukun@htu.edu.cn
+
 # cube2xyz
 # Extracts data from gaussian type .cube files and presents it as "x,y,z,measured_value"
 # It can print output to terminal, file, or produce a plot directly with Mathplotlib.
@@ -297,11 +302,6 @@ if args["plot"]:
     plt.grid(True)
     plt.show()
     
-
-
-#
-# Writen by Julen Larrucea
-# http://www.larrucea.eu
 
 #   This program is free software: you can redistribute it and/or modify
 #   it under the terms of the GNU General Public License as published by
